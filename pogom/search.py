@@ -18,7 +18,7 @@ import math
 import threading
 
 from threading import Thread, Lock
-from queue import Queue
+from Queue import Queue
 
 from pgoapi import PGoApi
 from pgoapi.utilities import f2i, get_cellid
